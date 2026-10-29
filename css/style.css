@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #26334d;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+h1 {
+    color: #243b67;
+}
+
+nav {
+    background: #243b67;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdc73;
+}
+
+.task {
+    background: white;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+button {
+    background: #345cc4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 11px 18px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #243b88;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+}
+
+#slidePanel {
+    background: #dce8ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 450px;
+}
+
+#itemList {
+    display: inline-block;
+    text-align: left;
+    min-width: 150px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+}
+
+.animationArea {
+    height: 250px;
+    max-width: 550px;
+    background: #eef2f8;
+    border: 1px solid #ccd5e3;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: #3478e5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+}
+
+#sequenceBox {
+    background: #e88a32;
+}
+
+#combinedBox {
+    background: #23a88a;
+}
+
+.accordion {
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+.accordionHeader {
+    display: block;
+    width: 100%;
+    margin: 5px 0 0;
+    text-align: left;
+    background: #304f94;
+}
+
+.accordionContent {
+    display: none;
+    padding: 15px;
+    background: #e8efff;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+}

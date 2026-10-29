@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 5 - Accordion Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Part 5 - Interactive Mini Project</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="part1.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html">Part 4</a>
+        <a href="part5.html">Part 5</a>
+    </nav>
+
+    <section class="task">
+        <h2>Task 11 - Accordion Menu</h2>
+        <p>Click a heading to expand or collapse its content.</p>
+
+        <div class="accordion">
+            <button class="accordionHeader">What is jQuery?</button>
+            <div class="accordionContent">
+                <p>jQuery is a JavaScript library that makes
+                   DOM manipulation and events easier.</p>
+            </div>
+
+            <button class="accordionHeader">What are jQuery effects?</button>
+            <div class="accordionContent">
+                <p>Effects include hide, show, fade and slide.</p>
+            </div>
+
+            <button class="accordionHeader">What is DOM manipulation?</button>
+            <div class="accordionContent">
+                <p>DOM manipulation means changing webpage
+                   elements using JavaScript or jQuery.</p>
+            </div>
+
+            <button class="accordionHeader">What is animation?</button>
+            <div class="accordionContent">
+                <p>Animation changes element properties
+                   smoothly over time.</p>
+            </div>
+        </div>
+
+        <button id="openAllBtn">Open All</button>
+        <button id="closeAllBtn">Close All</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

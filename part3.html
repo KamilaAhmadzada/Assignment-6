@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3 - DOM Manipulation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Part 3 - DOM Manipulation</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="part1.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html">Part 4</a>
+        <a href="part5.html">Part 5</a>
+    </nav>
+
+    <section class="task">
+        <h2>Task 5 - Add and Remove Elements</h2>
+
+        <ul id="itemList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <button id="addItemBtn">Add Item</button>
+        <button id="prependItemBtn">Add to Beginning</button>
+        <button id="removeItemBtn">Remove Item</button>
+    </section>
+
+    <section class="task">
+        <h2>Task 6 - Modifying Attributes</h2>
+
+        <img id="changeImage"
+             src="https://picsum.photos/id/237/300/200"
+             alt="Changeable image">
+
+        <div>
+            <button id="changeImageBtn">Change Image</button>
+        </div>
+
+        <p>
+            <a id="dynamicLink"
+               href="https://www.wikipedia.org/"
+               target="_blank" rel="noopener noreferrer">
+                Visit Wikipedia
+            </a>
+        </p>
+
+        <button id="changeLinkBtn">Change Link</button>
+    </section>
+
+    <section class="task">
+        <h2>Task 7 - Form Interaction</h2>
+
+        <form id="liveForm">
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+
+            <label for="emailInput">Email:</label>
+            <input type="email" id="emailInput" placeholder="Enter your email">
+        </form>
+
+        <h3>Live Preview</h3>
+        <p>Name: <span id="namePreview"></span></p>
+        <p>Email: <span id="emailPreview"></span></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
